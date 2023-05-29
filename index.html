@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Family</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* CSS Variable */
+        :root {
+            --navbar-height: 59px;
+        }
+
+        /* Navigation bar */
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+
+        }
+
+        /* Navigation bar :logo and img*/
+        #logo {
+            margin: 1px 10px;
+        }
+
+        #logo img {
+            height: 56px;
+            margin: 1px 4px;
+        }
+
+        /* Navigation bar :list styling*/
+        #navbar {
+            position: sticky;
+        }
+
+        #navbar ul {
+            display: flex;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(70, 46, 50);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin-right: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 1px 5px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: red;
+            background-color: white;
+            box-shadow: 4px 3px 5px greenyellow;
+        }
+
+        #navbar ul li a {
+            color: white;
+        }
+
+        #navbar {
+            transition-property: background-color;
+            transition-duration: 1s;
+            transition-delay: 1s;
+            transition-timing-function: 3s;
+        }
+
+        #navbar:hover {
+            background-color: red;
+            transform: skew(20deg);
+        }
+
+        #video source {
+            padding-left: 200px;
+
+        }
+
+        div video {
+            display: flex;
+            margin: auto;
+            position: absolute;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            opacity: 0.8;
+            z-index: -1;
+
+        }
+
+        #anniversary {
+            margin-top: 10px;
+            padding: 20px 20px;
+            font-size: 30px;
+            color: black;
+            text-shadow: 2px 4px yellow;
+        }
+
+        marquee p {
+            display: flex;
+            justify-content: center;
+            color: blue;
+            font-size: 20px;
+            text-shadow: 2px 2px rgb(218, 73, 15);
+        }
+
+        .anny {
+            position: absolute;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            font-size: large;
+            color: black;
+            gap: 20px 20px;
+            z-index: -1;
+        }
+
+        #video video source {
+            position: absolute;
+            top: 0px;
+            margin: auto;
+            width: 30px;
+            padding: 6px;
+            height: auto;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        body {
+            background-color: yellow;
+        }
+
+        #sand .gef {
+            display: inline-block;
+            font-size: 2rem;
+            text-decoration: none;
+            /* border: 2px solid red; */
+            /*border-radius: 10px 5px; */
+            text-decoration-line: none;
+            /* background-color: pink;  */
+            /* box-shadow: 4px 3px 2px greenyellow; */
+            margin: 1%;
+        }
+
+        #sand .gef:hover {
+            font-size: 1.6rem;
+            background-color: rgb(181, 214, 62);
+            border-radius: 10px 5px;
+            text-decoration: dotted;
+            box-shadow: 4px 7px 2px greenyellow;
+            background-color: pink;
+        }
+
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo1.jpg" alt="Unable to upload">
+        </div>
+        <div class="list">
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services">Service</a></li>
+                <li class="item"><a href="#client-section">Our Clients</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="anniversary">
+        <marquee scrollamount="5" behavior="alternate" direction="right">💗🌹🍨SWARG SE SUNDAR SAPNO SE PYRA HOTA HAI
+            PARIVAR💗🌹🍨
+        </marquee>
+    </section>
+    <section id="sand">
+        <div class="gef">
+            <a href="good_morning1.gif" alt="Please Refresh">
+                <p>Please Click Me</p>
+            </a>
+        </div>
+        <!-- <div class="gef">
+            <a href="GIF.gif" alt="Please Refresh">
+                <p>Click And See Surprise</p>
+            </a>
+        </div> -->
+        <marquee scrollamount="5" behavior="scroll" direction="right">
+            <div>
+                💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗
+            </div>
+        </marquee>
+        <marquee scrollamount="5" behavior="scroll" direction="left">
+            <div>
+                💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗💗
+            </div>
+        </marquee>
+    </section>
+
+    <section id="video">
+        <div>
+            <div class="anny">
+                <marquee scrollamount="2" behavior="scroll" direction="up" style="height:750px; width:auto;">
+                    <p>💗🌹🍨SWARG SE SUNDAR SAPNO SE PYRA HOTA HAI PARIVAR💗🌹🍨</p><br>
+                    <p>💗🌹🍨MAY GOD BLESS ALL OF US💗🌹🍨</p><br>
+                    <p>💗🌹🍨MAY ALL OF US LIVE LONG💗🌹🍨</p>
+                </marquee>
+            </div>
+            <div>
+                <video autoplay controls loop>
+                    <source src="Video.mp4" type="video/mp4" media="screen and (max-width:1050px)">
+                </video>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
